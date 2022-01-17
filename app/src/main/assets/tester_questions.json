@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "category": "Tester",
+    "question": "What is 2 + 2?",
+    "correctAnswer": "4",
+    "incorrectAnswers":
+    [
+      "12",
+      "22",
+      "8"
+    ],
+    "correct": false
+  },
+  {
+    "id": 2,
+    "category": "Tester",
+    "question": "What is ANR?",
+    "correctAnswer": "Application Not Responding",
+    "incorrectAnswers":
+    [
+      "App Not Ready",
+      "Application No Retry",
+      "Always Never Run"
+    ],
+    "correct": false
+  },
+  {
+    "id": 3,
+    "category": "Tester",
+    "question": "How to create a Singleton in Kotlin?",
+    "correctAnswer": "object",
+    "incorrectAnswers":
+    [
+      "private",
+      "singleton",
+      "makeOneOf"
+    ],
+    "correct": false
+  },
+  {
+    "id": 4,
+    "category": "Tester",
+    "question": "What makes val and var different?",
+    "correctAnswer": "val is immutable while var is mutable",
+    "incorrectAnswers":
+    [
+      "var is immutable while val is mutable",
+      "they function the same",
+      "val variables can hold any data type, var can only hold primitive data types"
+    ],
+    "correct": false
+  },
+  {
+    "id": 5,
+    "category": "Tester",
+    "question": "What are the 4 main components of an Android application?",
+    "correctAnswer": "Activity, Service, Content Provider, Broadcast Receiver",
+    "incorrectAnswers":
+    [
+      "Fragment, Intent Service, Content Loader, Receiver",
+      "Manifest, Gradle Scripts, Res Folder, Java Folder",
+      "WorkManager, Room, Coroutines, Navigation"
+    ],
+    "correct": false
+  }
+]

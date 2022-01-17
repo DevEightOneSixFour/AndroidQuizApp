@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_categories">
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.appityappity.view.CategoryFragment"
+        tools:layout="@layout/fragment_categories">
+
+        <action
+            android:id="@+id/action_nav_categories_to_nav_questions"
+            app:destination="@id/nav_questions"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_questions"
+        android:name="com.example.appityappity.view.QuestionFragment"
+        tools:layout="@layout/fragment_question">
+
+        <action
+            android:id="@+id/action_nav_questions_to_nav_results"
+            app:destination="@id/nav_results"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.example.appityappity.view.ResultsFragment"
+        tools:layout="@layout/fragment_results">
+
+        <action
+            android:id="@+id/action_nav_results_to_nav_categories"
+            app:destination="@id/nav_categories"/>
+
+        <action
+            android:id="@+id/action_nav_results_to_nav_review"
+            app:destination="@id/nav_review"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.example.appityappity.view.ReviewFragment"
+        tools:layout="@layout/fragment_review">
+
+    </fragment>
+
+</navigation>

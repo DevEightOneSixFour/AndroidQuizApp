@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AppityAppity</string>
+    <string name="pick_a_category">Pick A Category</string>
+    <string name="current_score_s">Current Score: %s</string>
+    <string name="results_score">%s%</string>
+    <string name="submit">submit answer</string>
+    <string name="answer_goes_here">Answer goes here</string>
+    <string name="good_job">Good Job!</string>
+    <string name="unfortunate">Unfortunate…</string>
+    <string name="empty_answer">Please select an answer</string>
+    <string name="next">Next</string>
+    <string name="you_got">This time you got</string>
+    <string name="last_time">Previous score</string>
+    <string name="ov_better">You did better this time. Keep it up!</string>
+    <string name="ov_worse">Worse than last time. Study and try again.</string>
+    <string name="ov_equal">Same as last time</string>
+    <string name="ov_first_time">Your first time completing this test category.</string>
+    <string name="review">Review Answers</string>
+    <string name="back_to_categories">Back to categories</string>
+    <string name="details">details</string>
+    <string-array name="categories">
+        <item>Android Anatomy</item>
+        <item>Android Components</item>
+        <item>Programming Principles</item>
+        <item>View and ViewGroup</item>
+        <item>Testing</item>
+        <item>Threading</item>
+        <item>Kotlin Basics</item>
+        <item>Coroutines</item>
+        <item>Design Patterns</item>
+        <item>Android Jetpack</item>
+        <item>Tester Questions</item>
+    </string-array>
+</resources>
