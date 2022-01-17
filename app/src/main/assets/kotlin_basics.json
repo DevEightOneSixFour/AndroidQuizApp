@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "category": "Kotlin Basics",
+    "question": "What makes val and var different?",
+    "correctAnswer": "val is immutable while var is mutable",
+    "incorrectAnswers": [
+      "var is immutable while val is mutable",
+      "they function the same",
+      "val variables can hold any data type, var can only hold primitive data types"
+    ],
+    "correct": false
+  },
+  {
+    "id": 2,
+    "category": "Kotlin Basics",
+    "question": "What makes val and const val different?",
+    "correctAnswer": "const gets its value at compile time while val gets its value at runtime",
+    "incorrectAnswers": [
+      "val gets value at compile time while const gets its value at runtime",
+      "they function the same",
+      "const can be delcared without a value while val cannot"
+    ],
+    "correct": false
+  },
+  {
+    "id": 3,
+    "category": "Kotlin Basics",
+    "question": "Which symbol is Elvis Operator?",
+    "correctAnswer": "?:",
+    "incorrectAnswers": [
+      "?.",
+      "$",
+      "!!"
+    ],
+    "correct": false
+  },
+  {
+    "id": 4,
+    "category": "Kotlin Basics",
+    "question": "Which symbol is Safe Call?",
+    "correctAnswer": "?.",
+    "incorrectAnswers": [
+      "?:",
+      "$",
+      "!!"
+    ],
+    "correct": false
+  },
+  {
+    "id": 5,
+    "category": "Kotlin Basics",
+    "question": "Which symbol is Force Unwrap?",
+    "correctAnswer": "!!",
+    "incorrectAnswers": [
+      "?:",
+      "$",
+      "?."
+    ],
+    "correct": false
+  },
+  {
+    "id": 6,
+    "category": "Kotlin Basics",
+    "question": "How to create a Singleton in Kotlin?",
+    "correctAnswer": "object",
+    "incorrectAnswers": [
+      "private",
+      "singleton",
+      "makeOneOf"
+    ],
+    "correct": false
+  },
+  {
+    "id": 7,
+    "category": "Kotlin Basics",
+    "question": "Which of these are Kotlin scope functions?",
+    "correctAnswer": "apply, run, also, let, with",
+    "incorrectAnswers": [
+      "get, set, equals, toString, hashCode",
+      "create, read, update, delete",
+      "get, post, put, patch, delete "
+    ],
+    "correct": false
+  },
+  {
+    "id": 8,
+    "category": "Kotlin Basics",
+    "question": "Which keyword allows a class to be inherited in Kotlin?",
+    "correctAnswer": "open",
+    "incorrectAnswers": [
+      "public",
+      "static",
+      "extends"
+    ],
+    "correct": false
+  },
+  {
+    "id": 9,
+    "category": "Kotlin Basics",
+    "question": "How does Kotlin achieve static fields?",
+    "correctAnswer": "companion object",
+    "incorrectAnswers": [
+      "static",
+      "Kotlin cannot do this",
+      "inherit Static class"
+    ],
+    "correct": false
+  },
+  {
+    "id": 10,
+    "category": "Kotlin Basics",
+    "question": "What is lateinit?",
+    "correctAnswer": "Declare variable now to initialize later",
+    "incorrectAnswers": [
+      "Initialize the variable once it is called",
+      "Declare a variable in one class to use it in another",
+      "An init keyword that woke up late"
+    ],
+    "correct": false
+  },
+  {
+    "id": 11,
+    "category": "Kotlin Basics",
+    "question": "What is by lazy?",
+    "correctAnswer": "Initialize the variable once it is called",
+    "incorrectAnswers": [
+      "Declare variable now to initialize later",
+      "Declare a variable in one class to use it in another",
+      "A variable that does not know it is getting assessed"
+    ],
+    "correct": false
+  },
+  {
+    "id": 12,
+    "category": "Kotlin Basics",
+    "question": "What is the default visibility modifier?",
+    "correctAnswer": "public",
+    "incorrectAnswers": [
+      "internal",
+      "protected",
+      "private"
+    ],
+    "correct": false
+  },
+  {
+    "id": 13,
+    "category": "Kotlin Basics",
+    "question": "What is untrue about a primary constructor?",
+    "correctAnswer": "They can hold logic",
+    "incorrectAnswers": [
+      "Defined in the class header",
+      "Cannot hold logic",
+      "There can be only one"
+    ],
+    "correct": false
+  },
+  {
+    "id": 14,
+    "category": "Kotlin Basics",
+    "question": "What is untrue about a secondary constructor?",
+    "correctAnswer": "There can be only one",
+    "incorrectAnswers": [
+      "Defined in the class body",
+      "Must delegate to the primary constructor if it exists",
+      "They can hold logic"
+    ],
+    "correct": false
+  },
+  {
+    "id": 15,
+    "category": "Kotlin Basics",
+    "question": "What is the init block?",
+    "correctAnswer": "It executes once the primary constructor is instantiated",
+    "incorrectAnswers": [
+      "A block that runs only when first called",
+      "Code for initializing lateinit variables",
+      "Specialized code used in for loops"
+    ],
+    "correct": false
+  },
+  {
+    "id": 16,
+    "category": "Kotlin Basics",
+    "question": "Which is not a keyword in Kotlin?",
+    "correctAnswer": "new",
+    "incorrectAnswers": [
+      "in",
+      "by",
+      "this"
+    ],
+    "correct": false
+  },
+  {
+    "id": 17,
+    "category": "Kotlin Basics",
+    "question": "What is the equivalent of a switch expression?",
+    "correctAnswer": "when",
+    "incorrectAnswers": [
+      "if,else",
+      "let",
+      "for"
+    ],
+    "correct": false
+  },
+  {
+    "id": 18,
+    "category": "Kotlin Basics",
+    "question": "What is that data type of this array arrayOf(1,2,3,4)?",
+    "correctAnswer": "Int",
+    "incorrectAnswers": [
+      "String",
+      "Double",
+      "Number"
+    ],
+    "correct": false
+  }
+]
