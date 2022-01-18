@@ -19,7 +19,7 @@
     "incorrectAnswers": [
       "val gets value at compile time while const gets its value at runtime",
       "they function the same",
-      "const can be delcared without a value while val cannot"
+      "const can be declared without a value while val cannot"
     ],
     "correct": false
   },

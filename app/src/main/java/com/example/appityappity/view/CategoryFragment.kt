@@ -3,7 +3,6 @@ package com.example.appityappity.view
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.appityappity.R
 import com.example.appityappity.databinding.FragmentCategoriesBinding
 import com.example.appityappity.model.Category
-import com.example.appityappity.model.Question
 import com.example.appityappity.utils.Convertor
 import com.example.appityappity.utils.OnListItemClickListener
 import com.example.appityappity.utils.TEST_SCORES
@@ -24,7 +22,7 @@ import com.example.appityappity.viewmodel.QuestionViewModel
 
 class CategoryFragment : Fragment(), OnListItemClickListener {
 
-    lateinit var binding: FragmentCategoriesBinding
+    private lateinit var binding: FragmentCategoriesBinding
     private val convert = Convertor()
     private val categoryList = mutableListOf<Category>()
     private lateinit var categories: Array<String>
@@ -89,7 +87,7 @@ class CategoryFragment : Fragment(), OnListItemClickListener {
         sharedPreference.getString(filename, "0.00")?.let { viewModel.setPreviousGrade(it) }
         viewModel.category = filename
         viewModel.refreshQuestionList(
-            convert.readJsonFile(requireContext(), "${filename}.json").orEmpty()
+            convert.readJsonFile(requireContext(), "$filename.json").orEmpty()
         )
         binding.root.findNavController().navigate(
             CategoryFragmentDirections.actionNavCategoriesToNavQuestions()

@@ -11,7 +11,7 @@
     <string name="next">Next</string>
     <string name="you_got">This time you got</string>
     <string name="last_time">Previous score</string>
-    <string name="ov_better">You did better this time. Keep it up!</string>
+    <string name="ov_better">You did better this time. Good job!</string>
     <string name="ov_worse">Worse than last time. Study and try again.</string>
     <string name="ov_equal">Same as last time</string>
     <string name="ov_first_time">Your first time completing this test category.</string>

@@ -38,7 +38,7 @@ class QuestionViewModel : ViewModel() {
         _uiState.value = UIState.LOADING
         incorrectQuestions.clear()
         viewModelScope.launch {
-//            delay(2000)
+            delay(2000)
             currentQuestion = 0
             questionList = list.shuffled()
             _questionLiveData.postValue(questionList[0])
@@ -60,7 +60,7 @@ class QuestionViewModel : ViewModel() {
         }
         _uiState.value = UIState.LOADING
         viewModelScope.launch {
-//            delay(2000)
+            delay(2000)
             if (questionList.last() == questionList[currentQuestion]) {
                 _uiState.postValue(UIState.RESULTS)
             } else {
