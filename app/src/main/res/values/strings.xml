@@ -18,6 +18,7 @@
     <string name="review">Review Answers</string>
     <string name="back_to_categories">Back to categories</string>
     <string name="details">details</string>
+    <string name="question_number">%s/%s</string>
     <string-array name="categories">
         <item>Android Anatomy</item>
         <item>Core Android</item>

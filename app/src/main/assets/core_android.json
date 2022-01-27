@@ -112,7 +112,7 @@
   {
     "id": 12,
     "question": "What is the Android Manifest?",
-    "correctAnswer": "Information about the application the Android needs to know about",
+    "correctAnswer": "Information about the application Android needs to know about",
     "incorrectAnswers": [
       "Where our Java/Kotlin code is written",
       "Information about our min/target SDK",

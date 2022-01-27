@@ -34,6 +34,9 @@ class QuestionViewModel : ViewModel() {
         previousGrade = grade.toDouble()
     }
 
+    fun getQuestionListSize() = questionList.size
+    fun getCurrentQuestionIndex() = currentQuestion + 1
+
     fun refreshQuestionList(list: List<Question>) {
         _uiState.value = UIState.LOADING
         incorrectQuestions.clear()

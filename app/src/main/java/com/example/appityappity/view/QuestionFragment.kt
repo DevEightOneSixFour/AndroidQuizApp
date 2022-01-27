@@ -113,7 +113,8 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                         progressBar.visibility = View.VISIBLE
                         btnSubmit.visibility = View.GONE
                         tvConfirmation.text = ""
-                        root.setBackgroundColor(resources.getColor(R.color.white, null))
+                        tvConfirmation.setBackgroundColor(resources.getColor(R.color.white, null))
+                        tvQuestionNumber.visibility = View.GONE
                     }
                 }
                 UIState.LOADED -> {
@@ -125,11 +126,17 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                         flipRadioGroup(true)
                         btnSubmit.text = resources.getString(R.string.submit)
                         btnSubmit.visibility = View.VISIBLE
+                        tvQuestionNumber.text = resources.getString(
+                            R.string.question_number,
+                            viewModel.getCurrentQuestionIndex().toString(),
+                            viewModel.getQuestionListSize().toString()
+                        )
+                        tvQuestionNumber.visibility = View.VISIBLE
                     }
                 }
                 UIState.CORRECT -> {
                     binding.apply {
-                        root.setBackgroundColor(resources.getColor(R.color.bright_green, null))
+                        tvConfirmation.setBackgroundColor(resources.getColor(R.color.bright_green, null))
                         tvConfirmation.text = resources.getString(R.string.good_job)
                         tvConfirmation.visibility = View.VISIBLE
                         flipRadioGroup(false)
@@ -138,7 +145,7 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                 }
                 UIState.WRONG -> {
                     binding.apply {
-                        root.setBackgroundColor(resources.getColor(R.color.bright_red, null))
+                        tvConfirmation.setBackgroundColor(resources.getColor(R.color.bright_red, null))
                         tvConfirmation.text = resources.getString(R.string.unfortunate)
                         tvConfirmation.visibility = View.VISIBLE
                         flipRadioGroup(false)
@@ -156,10 +163,12 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
 
 
     private fun flipRadioGroup(flag: Boolean) {
-        binding.rbtnAnswer1.isEnabled = flag
-        binding.rbtnAnswer2.isEnabled = flag
-        binding.rbtnAnswer3.isEnabled = flag
-        binding.rbtnAnswer4.isEnabled = flag
+        binding.apply {
+            rbtnAnswer1.isEnabled = flag
+            rbtnAnswer2.isEnabled = flag
+            rbtnAnswer3.isEnabled = flag
+            rbtnAnswer4.isEnabled = flag
+        }
     }
 
     override fun onRadioButtonClick(btn: RadioButton) {
