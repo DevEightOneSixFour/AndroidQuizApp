@@ -6,11 +6,11 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Question(
     val id: Long,
-    val category: String,
+    val category: String? = "",
     val question: String,
     val correctAnswer: String,
     val incorrectAnswers: List<String>?,
-    var correct: Boolean
+    var correct: Boolean = false
 ): Parcelable
 
 @Parcelize

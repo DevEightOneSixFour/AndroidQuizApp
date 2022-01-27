@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "category": "Design Patterns",
+    "question": "What makes val and var different?",
+    "correctAnswer": "val is immutable while var is mutable",
+    "incorrectAnswers": [
+      "var is immutable while val is mutable",
+      "they function the same",
+      "val variables can hold any data type, var can only hold primitive data types"
+    ],
+    "correct": false
+  }
+]

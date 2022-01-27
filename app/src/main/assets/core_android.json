@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "question": "What are the 4 main components of an Android application?",
+    "correctAnswer": "Activity, Service, Content Provider, Broadcast Receiver",
+    "incorrectAnswers": [
+      "Fragment, Intent Service, Content Loader, Receiver",
+      "Manifest, Gradle Scripts, Res Folder, Java Folder",
+      "WorkManager, Room, Coroutines, Navigation"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is Context?",
+    "correctAnswer": "The current state of the application",
+    "incorrectAnswers": [
+      "Understand how the user interacts with our app",
+      "The location in memory of the app on the device",
+      "Where the user is interacting in our app"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is Context used for?",
+    "correctAnswer": "Get information regarding the activity and application",
+    "incorrectAnswers": [
+      "Understand how the user interacts with our app",
+      "The location in memory of the app on the device",
+      "Relates to the .xml files"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is an Activity",
+    "correctAnswer": "A single screen that the user can interact with",
+    "incorrectAnswers": [
+      "Handles long running operation without user interaction",
+      "Allows the application to response to Android intents",
+      "Manages access to a central repository of data"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is a Service",
+    "correctAnswer": "Handles long running operation without user interaction",
+    "incorrectAnswers": [
+      "A single screen that the user can interact with",
+      "Allows the application to response to Android intents",
+      "Manages access to a central repository of data"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is a Broadcast Receiver",
+    "correctAnswer": "Allows the application to response to Android intents",
+    "incorrectAnswers": [
+      "A single screen that the user can interact with",
+      "Handles long running operation without user interaction",
+      "Manages access to a central repository of data"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is a Content Provider",
+    "correctAnswer": "Manages access to a central repository of data",
+    "incorrectAnswers": [
+      "A single screen that the user can interact with",
+      "Handles long running operation without user interaction",
+      "Allows the application to response to Android intents"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the lifecycle of an Activity?",
+    "correctAnswer": "onCreate, onStart, onResume, onPause, onStop, onDestroy",
+    "incorrectAnswers": [
+      "onAttach, onCreateView, onViewCreated, onDestroy, onDetach",
+      "startService, bindService, unbindService, stopService",
+      "startActivity, onContinue, onBreak, endActivity"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is the use of Bundle?",
+    "correctAnswer": "Used to pass data between Activities or Fragments",
+    "incorrectAnswers": [
+      "Serializes our custom objects",
+      "To group our android components",
+      "Wraps our intents"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is AIDL?",
+    "correctAnswer": "Android Interface Definition Language",
+    "incorrectAnswers": [
+      "All In Defined Logs",
+      "Also Interactable Don't Lie",
+      "Android Interaction Design Lingo"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What data types are supported by AIDL?",
+    "correctAnswer": "String, List, Map, CharSequence and Java primitives",
+    "incorrectAnswers": [
+      "Only Java primitives",
+      "Custom types defined in the manifest",
+      "Android specific types"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is the Android Manifest?",
+    "correctAnswer": "Information about the application the Android needs to know about",
+    "incorrectAnswers": [
+      "Where our Java/Kotlin code is written",
+      "Information about our min/target SDK",
+      "Android specific types"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is an intent",
+    "correctAnswer": "A messaging object used to request an action from other components",
+    "incorrectAnswers": [
+      "An object only used to start other activities",
+      "Information about the application the Android needs to know about",
+      "Handles long running operation without user interaction"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Explicit Intents are used for...",
+    "correctAnswer": "Invoking an android component",
+    "incorrectAnswers": [
+      "Invoking various system components based on type",
+      "Getting information regarding the activity",
+      "A hard coded message for other applications"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Implicit Intents are used for...",
+    "correctAnswer": "Invoking various system components based on type",
+    "incorrectAnswers": [
+      "Invoking an android component",
+      "Getting information regarding the activity",
+      "A hard coded message for other applications"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is an ANR?",
+    "correctAnswer": "Application Not Responding",
+    "incorrectAnswers":
+    [
+      "App Not Ready",
+      "Application No Retry",
+      "Always Never Run"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "An ANR can be caused by...",
+    "correctAnswer": "No response to an input event after 5 seconds",
+    "incorrectAnswers":
+    [
+      "Android not recognizing your app",
+      "Your Kotlin code not matching Java code",
+      "Components not being specified in the manifest"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What are the activity launch modes?",
+    "correctAnswer": "standard, singleTop, singleTask, singleInstance",
+    "incorrectAnswers":
+    [
+      "default, singleton, module, viewModel",
+      "onCreate, onStart, onResume, onPause, onStop, onDestroy",
+      "FrameLayout, ConstraintLayout, LinearLayout, RelativeLayout"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is the compileSDK?",
+    "correctAnswer": "The version of API the application is compiled against",
+    "incorrectAnswers":
+    [
+      "The API level of the Android device where the app expects to run",
+      "The minimum API level where the application is able to run",
+      "Tells the compiler which code language to use"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is the targetSDK?",
+    "correctAnswer": "The API level of the Android device where the app expects to run",
+    "incorrectAnswers":
+    [
+      "The version of API the application is compiled against",
+      "The minimum API level where the application is able to run",
+      "Tells the SDK which device type it should target"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the minSDK?",
+    "correctAnswer": "The minimum API level where the application is able to run",
+    "incorrectAnswers":
+    [
+      "The version of API the application is compiled against",
+      "The API level of the Android device where the app expects to run",
+      "Tells the SDK how much code is needed to begin the application"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What does ProGuard do for our app?",
+    "correctAnswer": "Shrinks, obfuscates and optimizes our code",
+    "incorrectAnswers":
+    [
+      "Bundles our generated classes",
+      "The system that sends notifies us about warnings and errors in our IDE",
+      "We do not have ProGuard in Android"
+    ]
+  }
+]
+

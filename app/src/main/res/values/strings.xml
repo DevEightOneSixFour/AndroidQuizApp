@@ -20,7 +20,7 @@
     <string name="details">details</string>
     <string-array name="categories">
         <item>Android Anatomy</item>
-        <item>Android Components</item>
+        <item>Core Android</item>
         <item>Programming Principles</item>
         <item>View and ViewGroup</item>
         <item>Testing</item>
@@ -29,6 +29,7 @@
         <item>Coroutines</item>
         <item>Design Patterns</item>
         <item>Android Jetpack</item>
+        <item>Github</item>
         <item>Tester Questions</item>
     </string-array>
 </resources>

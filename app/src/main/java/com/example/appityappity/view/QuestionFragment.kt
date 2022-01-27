@@ -16,6 +16,7 @@ import com.example.appityappity.databinding.FragmentQuestionBinding
 import com.example.appityappity.model.Question
 import com.example.appityappity.model.UIState
 import com.example.appityappity.utils.OnRadioButtonClickListener
+import com.example.appityappity.utils.toTitle
 import com.example.appityappity.viewmodel.QuestionViewModel
 
 class QuestionFragment : Fragment(), OnRadioButtonClickListener {
@@ -79,14 +80,15 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
     }
 
     private fun randomizeAnswers(question: Question) {
+        // clear answers and get correct one
         answers.clear()
-        answers.add(question.correctAnswer) // clear answers and get correct one
+        answers.add(question.correctAnswer)
         answers.addAll(question.incorrectAnswers!!)
 
         answers.shuffle()
 
         binding.apply {
-            tvQuizTitle.text = question.category
+            tvQuizTitle.text = viewModel.category.toTitle()
             tvQuestion.text = question.question
             rbtnAnswer1.text = answers[0]
             rbtnAnswer2.text = answers[1]
