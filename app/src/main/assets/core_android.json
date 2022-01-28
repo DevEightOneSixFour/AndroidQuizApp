@@ -225,6 +225,39 @@
       "The system that sends notifies us about warnings and errors in our IDE",
       "We do not have ProGuard in Android"
     ]
+  },
+  {
+    "id": 23,
+    "question": "What is not an example of a normal permission?",
+    "correctAnswer": "SEND_SMS",
+    "incorrectAnswers":
+    [
+      "INTERNET",
+      "SET_ALARM",
+      "BLUETOOTH"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What is not an example of a dangerous permission?",
+    "correctAnswer": "ACCESS_NOTIFICATION_POLICY",
+    "incorrectAnswers":
+    [
+      "RECORD_AUDIO",
+      "SEND_SMS",
+      "ACCESS_FINE_LOCATION"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is a dangerous permission?",
+    "correctAnswer": "A permission that can affect the user's privacy",
+    "incorrectAnswers":
+    [
+      "A permission that can crash the app is not handled",
+      "A permission that leaves the app vulnerable to being hacked",
+      "A permission that can overheat the device"
+    ]
   }
 ]
 

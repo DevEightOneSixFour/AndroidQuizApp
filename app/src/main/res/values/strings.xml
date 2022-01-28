@@ -28,9 +28,9 @@
         <item>Threading</item>
         <item>Kotlin Basics</item>
         <item>Coroutines</item>
-        <item>Design Patterns</item>
         <item>Android Jetpack</item>
         <item>Github</item>
+        <item>Networking</item>
         <item>Tester Questions</item>
     </string-array>
 </resources>

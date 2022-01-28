@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What is SOLID?",
+    "correctAnswer": "A popular set of design principles used in object oriented development",
+    "incorrectAnswers": [
+      "An Android framework that provides a detailed pattern for effective applications",
+      "Another term for Object Oriented Programming",
+      "Singletons, Observables, Listeners, Interfaces, Dependencies"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is Object Oriented Programming?",
+    "correctAnswer": "A programming pattern that uses objects with behaviors and characteristics",
+    "incorrectAnswers": [
+      "The use of data classes and POJOs",
+      "The programming style that only uses the 'object' keyword instead 'class'",
+      "A standard of programming in building databases"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What are the 4 pillars of OOP?",
+    "correctAnswer": "Inheritance, Encapsulation, Polymorphism, Abstraction",
+    "incorrectAnswers": [
+      "Interfaces, Classes, Overriding, Annotations",
+      "MVC, MVP, MVVM, MVI",
+      "Kars, Esidisi, Wamuu, Santana"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is Single-Responsibility",
+    "correctAnswer": "A class should have one and only one reason to change",
+    "incorrectAnswers": [
+      "Objects or entities should be open for extension but not to modification",
+      "Every subclass should be substitutable for its base class",
+      "A client should never be forced to implement an interface it does not use"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is Open-Closed?",
+    "correctAnswer": "Objects or entities should be open for extension but not to modification",
+    "incorrectAnswers": [
+      "A class should have one and only one reason to change",
+      "Every subclass should be substitutable for its base class",
+      "A client should never be forced to implement an interface it does not use"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is Liskov Substitution?",
+    "correctAnswer": "Every subclass should be substitutable for its base class",
+    "incorrectAnswers": [
+      "A class should have one and only one reason to change",
+      "A client should never be forced to implement an interface it does not use",
+      "Entities must depend on abstractions, not on concretions"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is Interface Segregation?",
+    "correctAnswer": "A client should never be forced to implement an interface it does not use",
+    "incorrectAnswers": [
+      "Entities must depend on abstractions, not on concretions",
+      "A class should have one and only one reason to change",
+      "Objects or entities should be open for extension but not to modification"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is Dependency Inversion",
+    "correctAnswer": "Entities must depend on abstractions, not on concretions",
+    "incorrectAnswers": [
+      "A client should never be forced to implement an interface it does not use",
+      "Objects or entities should be open for extension but not to modification",
+      "Every subclass should be substitutable for its base class"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is meant by Encapsulation?",
+    "correctAnswer": "The restriction of direct access to some component of an object",
+    "incorrectAnswers": [
+      "The procedure in which one class inherits the attributes of another class",
+      "Only showing essential attributes and hides unnecessary information",
+      "The concept of accessing objects of different types through the same interface"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is meant by Inheritance?",
+    "correctAnswer": "The procedure in which one class inherits the attributes of another class",
+    "incorrectAnswers": [
+      "Only showing essential attributes and hides unnecessary information",
+      "The concept of accessing objects of different types through the same interface",
+      "The restriction of direct access to some component of an object"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is meant by Abstraction?",
+    "correctAnswer": "Only showing essential attributes and hides unnecessary information",
+    "incorrectAnswers": [
+      "The procedure in which one class inherits the attributes of another class",
+      "The concept of accessing objects of different types through the same interface",
+      "The restriction of direct access to some component of an object"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is meant by Polymorphism?",
+    "correctAnswer": "The concept of accessing objects of different types through the same interface",
+    "incorrectAnswers": [
+      "The restriction of direct access to some component of an object",
+      "The procedure in which one class inherits the attributes of another class",
+      "The restriction of direct access to some component of an object"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which is not a type of Design Pattern?",
+    "correctAnswer": "Material",
+    "incorrectAnswers": [
+      "Behavioral",
+      "Creational",
+      "Structural"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which is not a Architecture Pattern?",
+    "correctAnswer": "MVC (Model View Connector)",
+    "incorrectAnswers": [
+      "MVC (Model View Controller)",
+      "MVP (Model View Presenter)",
+      "MVVM (Model View ViewModel)"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is not an importance of using Design Patterns?",
+    "correctAnswer": "They only encouraged by senior developers",
+    "incorrectAnswers": [
+      "Provides commonly used methods for programming",
+      "Allows code to be more flexible and reusable",
+      "They address recurring problems in OOP"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "In Java and Kotlin, what is the naming convention of variables?",
+    "correctAnswer": "variableNameHere",
+    "incorrectAnswers": [
+      "variablenamehere",
+      "VariableNameHere",
+      "VARIABLE_NAME_HERE"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "In Java and Kotlin, what is the naming convention of classes?",
+    "correctAnswer": "ClassName",
+    "incorrectAnswers": [
+      "className",
+      "CLASSNAME",
+      "_ClassName"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "In Java and Kotlin, what is the naming convention of functions?",
+    "correctAnswer": "functionCall()",
+    "incorrectAnswers": [
+      "FunctionCall()",
+      "function_call()",
+      "fc()"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "In Java and Kotlin, what is the naming convention of constants?",
+    "correctAnswer": "CONSTANT_NAME",
+    "incorrectAnswers": [
+      "constantName",
+      "ConstantName",
+      "Constant_Name"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What are the layers of Clean Code Architecture?",
+    "correctAnswer": "Presentation, Use Cases, Domain, Data, Framework",
+    "incorrectAnswers": [
+      "Model, View, ViewModel",
+      "Modules, Components, SubComponents",
+      "Code free of warnings and lint issues"
+    ]
+  }
+]

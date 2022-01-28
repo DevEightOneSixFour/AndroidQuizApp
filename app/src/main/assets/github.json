@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What is version control?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is a branch in git?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is a merge conflict?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is CI (continuous integration)?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is CD (continuous delivery)?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is git merge?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is git rebase",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How do merge and rebase differ?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is git stash apply?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is git status?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is a PR (pull request)?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is a git repository?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What does the command git config do?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What does HEAD represent in git?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the command pattern you follow to push your code?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is git pull?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What is git fetch?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is git diff?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is git stash pop?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is a git cherry-pick?",
+    "correctAnswer": "",
+    "incorrectAnswers": [
+      "",
+      "",
+      ""
+    ]
+  }
+]
