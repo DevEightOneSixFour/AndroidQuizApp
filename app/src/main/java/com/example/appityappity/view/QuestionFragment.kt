@@ -1,13 +1,10 @@
 package com.example.appityappity.view
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
-import androidx.core.view.get
-import androidx.core.view.iterator
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
@@ -21,7 +18,7 @@ import com.example.appityappity.viewmodel.QuestionViewModel
 
 class QuestionFragment : Fragment(), OnRadioButtonClickListener {
 
-    lateinit var binding: FragmentQuestionBinding
+    private lateinit var binding: FragmentQuestionBinding
     private lateinit var viewModel: QuestionViewModel
     private val answers = mutableListOf<String>()
     private var selected = ""
@@ -30,13 +27,12 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         viewModel = ViewModelProvider(requireActivity())[QuestionViewModel::class.java]
         binding = FragmentQuestionBinding.inflate(layoutInflater)
         return binding.root
     }
 
-    @SuppressLint("ResourceType")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -44,7 +40,7 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
             checkAnswer()
         }
 
-        binding.rgAnswerGroup.setOnCheckedChangeListener { group, checkedId ->
+        binding.rgAnswerGroup.setOnCheckedChangeListener { _, checkedId ->
             selected = when(checkedId){
                 R.id.rbtn_answer_1 ->
                     binding.root.findViewById<RadioButton>(binding.rgAnswerGroup.checkedRadioButtonId).text.toString()
@@ -65,9 +61,6 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
         if (selected.isEmpty()){
             binding.tvConfirmation.text = resources.getString(R.string.empty_answer)
         } else {
-//            val radioButton : RadioButton =
-//                binding.root.findViewById(binding.rgAnswerGroup.checkedRadioButtonId)
-//            selected = radioButton.text.toString()
             if (viewModel.uiState.value == UIState.WRONG ||
                 viewModel.uiState.value == UIState.CORRECT) {
                 viewModel.getNextQuestion()

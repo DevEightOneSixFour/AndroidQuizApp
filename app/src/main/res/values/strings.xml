@@ -25,9 +25,8 @@
         <item>Programming Principles</item>
         <item>View and ViewGroup</item>
         <item>Testing</item>
-        <item>Threading</item>
         <item>Kotlin Basics</item>
-        <item>Coroutines</item>
+        <item>Threads and Coroutines</item>
         <item>Android Jetpack</item>
         <item>Github</item>
         <item>Networking</item>
