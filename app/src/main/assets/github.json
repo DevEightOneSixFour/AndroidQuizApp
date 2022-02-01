@@ -2,201 +2,211 @@
   {
     "id": 1,
     "question": "What is version control?",
-    "correctAnswer": "",
+    "correctAnswer": "The practice of tracking and managing changes to software code",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Only updating OS/languages to non-beta versions",
+      "Ensuring dependencies of the same library share the same version",
+      "Remembering to update your SDK"
     ]
   },
   {
     "id": 2,
     "question": "What is a branch in git?",
-    "correctAnswer": "",
+    "correctAnswer": "An independent line of development",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "A node of a binary tree",
+      "The entirety of the project",
+      "A piece of code being reviewed"
     ]
   },
   {
     "id": 3,
     "question": "What is a merge conflict?",
-    "correctAnswer": "",
+    "correctAnswer": "Local changes compete with code on the same line(s)",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "When your PR is blocked by another developer",
+      "Cached data not matching new code changes",
+      "Writing code in an unexpected language"
     ]
   },
   {
     "id": 4,
     "question": "What is CI (continuous integration)?",
-    "correctAnswer": "",
+    "correctAnswer": "The practice of automating the integration of code changes into a single project",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The practice of automatically deploying code changes to a testing/production environment",
+      "The practice of every change that passes the production pipeline is released to customers",
+      "The practice of manually integrating the code changes into a single project"
     ]
   },
   {
     "id": 5,
     "question": "What is CD (continuous delivery)?",
-    "correctAnswer": "",
+    "correctAnswer": "The practice of automatically deploying code changes to a testing/production environment",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The practice of automating the integration of code changes into a single project",
+      "The practice of every change that passes the production pipeline is released to customers",
+      "The practice of manually deploying code changes to a testing/production environment"
     ]
   },
   {
     "id": 6,
     "question": "What is git merge?",
-    "correctAnswer": "",
+    "correctAnswer": "Taking the independent lines of development and integrate them into a single branch",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The process of moving/combining a sequence of commits to a new base commit",
+      "Matching your cached data with your data source",
+      "The practice of merging your every active branch simultaneously"
     ]
   },
   {
     "id": 7,
-    "question": "What is git rebase",
-    "correctAnswer": "",
+    "question": "What is git rebase?",
+    "correctAnswer": "The process of moving/combining a sequence of commits to a new base commit",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Taking the independent lines of development and integrate them into a single branch",
+      "Refreshing cached data to a previous state",
+      "Returning to the latest version of the repository"
     ]
   },
   {
     "id": 8,
     "question": "How do merge and rebase differ?",
-    "correctAnswer": "",
+    "correctAnswer": "Merging preserves the history of the branches, rebasing rewrites it",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Rebasing preserves the history of the branches, merging rewrites it",
+      "Merge can be done locally while, rebase can only be done in GitHub",
+      "Both are the same, the difference is based on programming language used"
     ]
   },
   {
     "id": 9,
-    "question": "What is git stash apply?",
-    "correctAnswer": "",
+    "question": "What is git stash?",
+    "correctAnswer": "Temporarily store your changes you have made to your working copy, usually to be applied later",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Store you working changes to a text file for you to reference later",
+      "Stores your working changes to your commit without needing a message",
+      "Used to store changes to specific storage, like a file or USB drive"
     ]
   },
   {
     "id": 10,
     "question": "What is git status?",
-    "correctAnswer": "",
+    "correctAnswer": "Displays the state of the working directory and the staging area",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Displays and compared the commits and branches from your local branch and another branch",
+      "Displays if the branch is safe to push",
+      "Displays current errors and potential lint issues"
     ]
   },
   {
     "id": 11,
     "question": "What is a PR (pull request)?",
-    "correctAnswer": "",
+    "correctAnswer": "Lets other know about the changes you have pushed from your branch into the development branch",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The request to pull code from the repository to your device. Needs credentials",
+      "The process of moving/combining a sequence of commits to a new base commit",
+      "The practice of managing and disseminating information from an individual or an organization"
     ]
   },
   {
     "id": 12,
-    "question": "What is a git repository?",
-    "correctAnswer": "",
+    "question": "What is CD (continuous deployment)?",
+    "correctAnswer": "The practice of every change that passes the production pipeline is released to customers",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The practice of automating the integration of code changes into a single project",
+      "The practice of automatically deploying code changes to a testing/production environment",
+      "The practice of cherry picking your branch to merge it into production"
     ]
   },
   {
     "id": 13,
     "question": "What does the command git config do?",
-    "correctAnswer": "",
+    "correctAnswer": "Used to set Git configuration values on a global or local project level",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Used to view the Git configuration values on a global or local project level",
+      "Used to configure which files will be ignored upon pushing the branch",
+      "Used to configure which language Git should expect in this repository"
     ]
   },
   {
     "id": 14,
     "question": "What does HEAD represent in git?",
-    "correctAnswer": "",
+    "correctAnswer": "The current commit you are viewing",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The master branch",
+      "The branch you branched off of",
+      "The one who created the repository"
     ]
   },
   {
     "id": 15,
     "question": "What is the command pattern you follow to push your code?",
-    "correctAnswer": "",
+    "correctAnswer": "[git add .]-> [git commit -m \"commit message\"] -> [git push]",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "[git push], Android Studio is aware of my local changes and pushes only those",
+      "[git add .]-> [git commit] -> [git push]",
+      "[git push --set-upstream origin <branch_name>]"
     ]
   },
   {
     "id": 16,
     "question": "What is git pull?",
-    "correctAnswer": "",
+    "correctAnswer": "Fetches the content from the remote repository and updates local repository to match it",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The command needed to start a pull request",
+      "Downloads commits, files, and refs from the remote repository into your local repository",
+      "Pulls the code from previous commit under your profile"
     ]
   },
   {
     "id": 17,
     "question": "What is git fetch?",
-    "correctAnswer": "",
+    "correctAnswer": "Downloads commits, files, and refs from the remote repository into your local repository",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Fetches the content from the remote repository and updates local repository to match it",
+      "The command needed to start a push request",
+      "Fetches the credentials of your GitHub account"
     ]
   },
   {
     "id": 18,
     "question": "What is git diff?",
-    "correctAnswer": "",
+    "correctAnswer": "Used to compare two commits, branches, or files across revisions or branches",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Displays the state of the working directory and the staging area",
+      "Pulls the code from previous commit under your profile",
+      "Displays your cached data with your data source"
     ]
   },
   {
     "id": 19,
-    "question": "What is git stash pop?",
-    "correctAnswer": "",
+    "question": "Which is not a benefit of version control?",
+    "correctAnswer": "Easy duplication of code",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "Traceability",
+      "Compliance adherence",
+      "Documentation history"
     ]
   },
   {
     "id": 20,
-    "question": "What is a git cherry-pick?",
-    "correctAnswer": "",
+    "question": "What is meant by the repository in git?",
+    "correctAnswer": "The entirety of the project",
     "incorrectAnswers": [
-      "",
-      "",
-      ""
+      "The development branch",
+      "The code you are working on",
+      "The GitHub website"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the least important thing you should look for in a PR?",
+    "correctAnswer": "Does the code run",
+    "incorrectAnswers": [
+      "Is the code following best practices",
+      "Does it solve the problem in the ticket",
+      "Is the solution code being covered by tests"
     ]
   }
 ]

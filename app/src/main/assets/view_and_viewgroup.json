@@ -1,13 +1,123 @@
 [
   {
     "id": 1,
-    "question": "What is 2 + 2?",
-    "correctAnswer": "4",
+    "question": "What is a View?",
+    "correctAnswer": "The basic building block of the UI",
     "incorrectAnswers":
     [
-      "12",
-      "22",
-      "8"
+      "Refers to the current page you are seeing in the app",
+      "The combination of an Activity and its Fragment(s)",
+      "Another term for an Activity"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is a ViewGroup?",
+    "correctAnswer": "A container that can hold other views",
+    "incorrectAnswers":
+    [
+      "Layouts files that are similar in nature",
+      "Refers to the current page you are seeing in the app",
+      "The combination of an Activity and its Fragment(s)"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which of these is not a ViewGroup?",
+    "correctAnswer": "Button",
+    "incorrectAnswers":
+    [
+      "ConstraintLayout",
+      "FrameLayout",
+      "RecyclerView"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Difference between margin and padding.",
+    "correctAnswer": "Padding is the space inside the container, while margin is the space outside of the container",
+    "incorrectAnswers":
+    [
+      "Margin is the space inside the container, while padding is the space outside of the container",
+      "The function similarly, but padding is the legacy version of margin",
+      "Margin must be scaled with dp and padding must be scaled with px"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is dp?",
+    "correctAnswer": "Density-Independent Pixels, based on the physical density of the screen",
+    "incorrectAnswers":
+    [
+      "Dimension-Independent Pixels, based on the physical dimension of the screen",
+      "Design Principles, guidelines to follow for building concise UI",
+      "'dp' is not used in Android"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is sp?",
+    "correctAnswer": "Scalable-Independent Pixels, scaled to the font size preference of the user",
+    "incorrectAnswers":
+    [
+      "Synchronized Process, a variable used to synchronize certain functions in the background",
+      "Scope Principles, guidelines to follow for building concise applications",
+      "'sp' is not used in Android"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "When would you use 'dp' and 'sp'",
+    "correctAnswer": "'sp' is used for scaling text size, 'dp' is used to scale everything else",
+    "incorrectAnswers":
+    [
+      "'dp' is used for scaling text size, 'sp' is used to scale everything else",
+      "The can be used interchangeably with much noticeable difference",
+      "Neither are used much in modern Android development"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is a LinearLayout?",
+    "correctAnswer": "A layout that arranges its elements based on the set horizontal or vertical orientation",
+    "incorrectAnswers":
+    [
+      "A layout used to contain a single item and block off the space for it to be displayed",
+      "A layout that arranges elements relative to parent or other elements",
+      "A layout used to build complex layouts with a flat hierarchy"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is a FrameLayout?",
+    "correctAnswer": "A layout used to contain a single item and block off the space for it to be displayed",
+    "incorrectAnswers":
+    [
+      "A layout that arranges its elements based on the set horizontal or vertical orientation",
+      "A layout that arranges elements relative to parent or other elements",
+      "A layout used to build complex layouts with a flat hierarchy"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What does not describe a ConstraintLayout?",
+    "correctAnswer": "A layout that can ignore the required attributes of a view",
+    "incorrectAnswers":
+    [
+      "A layout that arranges elements relative to parent or other elements",
+      "A layout used to build complex layouts with a flat hierarchy",
+      "A layout that renders its Views faster than other layouts"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What are the required attributes of a View?",
+    "correctAnswer": "android:layout_width and android:layout_height",
+    "incorrectAnswers":
+    [
+      "The tag of the View and android:id",
+      "xmlns:android=\"http://schemas.android.com/apk/res/android\"",
+      "val variableName: View = findViewById()"
     ]
   }
 ]

@@ -142,7 +142,7 @@
   {
     "id": 15,
     "question": "What is not an importance of using Design Patterns?",
-    "correctAnswer": "They only encouraged by senior developers",
+    "correctAnswer": "They are only encouraged by senior developers",
     "incorrectAnswers": [
       "Provides commonly used methods for programming",
       "Allows code to be more flexible and reusable",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "question": "In Java and Kotlin, what is the naming convention of variables?",
+    "question": "In Kotlin, what is the naming convention of variables?",
     "correctAnswer": "variableNameHere",
     "incorrectAnswers": [
       "variablenamehere",
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "question": "In Java and Kotlin, what is the naming convention of classes?",
+    "question": "In Kotlin, what is the naming convention of classes?",
     "correctAnswer": "ClassName",
     "incorrectAnswers": [
       "className",
@@ -171,17 +171,17 @@
   },
   {
     "id": 18,
-    "question": "In Java and Kotlin, what is the naming convention of functions?",
-    "correctAnswer": "functionCall()",
+    "question": "In Kotlin, what is the naming convention of functions?",
+    "correctAnswer": "functionCall(argumentName: String)",
     "incorrectAnswers": [
-      "FunctionCall()",
-      "function_call()",
-      "fc()"
+      "FunctionCall(argumentname: String)",
+      "function_call(argument_name: String)",
+      "fc(an: String)"
     ]
   },
   {
     "id": 19,
-    "question": "In Java and Kotlin, what is the naming convention of constants?",
+    "question": "In Kotlin, what is the naming convention of constants?",
     "correctAnswer": "CONSTANT_NAME",
     "incorrectAnswers": [
       "constantName",
@@ -195,8 +195,8 @@
     "correctAnswer": "Presentation, Use Cases, Domain, Data, Framework",
     "incorrectAnswers": [
       "Model, View, ViewModel",
-      "Modules, Components, SubComponents",
-      "Code free of warnings and lint issues"
+      "Modules, Components, SubComponents, Injections",
+      "Your code is free of warnings and other lint issues"
     ]
   }
 ]

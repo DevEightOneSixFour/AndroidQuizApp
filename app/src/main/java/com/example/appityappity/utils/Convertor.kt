@@ -6,7 +6,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.IOException
 
-class Convertor {
+object Convertor {
 
     fun readJsonFile(context: Context, fileName: String): List<Question>? {
         val questions: List<Question>?

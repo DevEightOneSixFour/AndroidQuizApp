@@ -23,7 +23,6 @@ import com.example.appityappity.viewmodel.QuestionViewModel
 class CategoryFragment : Fragment(), OnListItemClickListener {
 
     private lateinit var binding: FragmentCategoriesBinding
-    private val convert = Convertor()
     private val categoryList = mutableListOf<Category>()
     private lateinit var categories: Array<String>
     private lateinit var sharedPreference: SharedPreferences
@@ -33,7 +32,7 @@ class CategoryFragment : Fragment(), OnListItemClickListener {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         viewModel = ViewModelProvider(requireActivity())[QuestionViewModel::class.java]
         binding = FragmentCategoriesBinding.inflate(layoutInflater)
         return binding.root
@@ -87,7 +86,7 @@ class CategoryFragment : Fragment(), OnListItemClickListener {
         sharedPreference.getString(filename, "0.00")?.let { viewModel.setPreviousGrade(it) }
         viewModel.category = filename
         viewModel.refreshQuestionList(
-            convert.readJsonFile(requireContext(), "$filename.json").orEmpty()
+            Convertor.readJsonFile(requireContext(), "$filename.json").orEmpty()
         )
         binding.root.findNavController().navigate(
             CategoryFragmentDirections.actionNavCategoriesToNavQuestions()
