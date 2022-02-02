@@ -72,7 +72,7 @@
     "incorrectAnswers":
     [
       "'dp' is used for scaling text size, 'sp' is used to scale everything else",
-      "The can be used interchangeably with much noticeable difference",
+      "The can be used interchangeably with not much noticeable difference",
       "Neither are used much in modern Android development"
     ]
   },

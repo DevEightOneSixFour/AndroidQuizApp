@@ -41,6 +41,7 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
         }
 
         binding.rgAnswerGroup.setOnCheckedChangeListener { _, checkedId ->
+            //TODO refactor this
             selected = when(checkedId){
                 R.id.rbtn_answer_1 ->
                     binding.root.findViewById<RadioButton>(binding.rgAnswerGroup.checkedRadioButtonId).text.toString()

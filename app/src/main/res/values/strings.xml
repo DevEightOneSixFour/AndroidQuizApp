@@ -19,8 +19,8 @@
     <string name="back_to_categories">Back to categories</string>
     <string name="details">details</string>
     <string name="question_number">%s/%s</string>
+    <string name="correct_answer">Correct Answer: %s</string>
     <string-array name="categories">
-        <item>Android Anatomy</item>
         <item>Core Android</item>
         <item>Programming Principles</item>
         <item>View and ViewGroup</item>

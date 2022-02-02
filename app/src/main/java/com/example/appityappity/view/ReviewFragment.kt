@@ -15,15 +15,16 @@ import com.example.appityappity.viewmodel.QuestionViewModel
 
 class ReviewFragment : Fragment() {
 
-    lateinit var binding: FragmentReviewBinding
-    private lateinit var viewModel: QuestionViewModel
+    private lateinit var binding: FragmentReviewBinding
+    private val  viewModel: QuestionViewModel by lazy {
+        ViewModelProvider(requireActivity())[QuestionViewModel::class.java]
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        viewModel = ViewModelProvider(requireActivity())[QuestionViewModel::class.java]
         binding = FragmentReviewBinding.inflate(layoutInflater)
         return binding.root
     }

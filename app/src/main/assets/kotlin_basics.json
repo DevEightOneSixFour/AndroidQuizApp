@@ -18,7 +18,7 @@
     "correctAnswer": "const gets its value at compile time while val gets its value at runtime",
     "incorrectAnswers": [
       "val gets value at compile time while const gets its value at runtime",
-      "they function the same",
+      "they function the same, const is carried over from Java",
       "const can be declared without a value while val cannot"
     ],
     "correct": false
@@ -175,7 +175,7 @@
     "incorrectAnswers": [
       "A block that runs only when first called",
       "Code for initializing lateinit variables",
-      "Specialized code used in for loops"
+      "Specialized code used in 'for' loops"
     ],
     "correct": false
   },
@@ -206,7 +206,7 @@
   {
     "id": 18,
     "category": "Kotlin Basics",
-    "question": "What is that data type of this array arrayOf(1,2,3,4)?",
+    "question": "What is that data type of this array 'arrayOf(1,2,3,4)'?",
     "correctAnswer": "Int",
     "incorrectAnswers": [
       "String",

@@ -32,12 +32,11 @@ class CategoryAdapter(
         holder.binding.tvCurrentScore.text =
             context.getString(R.string.current_score_s, list[position].score.toString() + "%")
         holder.binding.cvCatCard.background.setTint(list[position].color)
+
         val questionFile = list[position].title.toPrefFormat()
 
         holder.itemView.setOnClickListener {
-            listener.onClickListItem(
-                questionFile
-            )
+            listener.onClickListItem(questionFile)
         }
     }
 

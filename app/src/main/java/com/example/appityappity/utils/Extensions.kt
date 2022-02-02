@@ -14,6 +14,5 @@ fun String.toTitle(): String {
        result+= i.replaceFirstChar { it.uppercase() } + " "
     }
 
-
     return result.trim()
 }
