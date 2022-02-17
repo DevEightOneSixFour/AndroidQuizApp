@@ -44,8 +44,7 @@ class ReviewViewHolder(
                     context.resources.getString(
                         R.string.correct_answer, question.correctAnswer
                     )
-                )
-                .show()
+                ).show()
         }
     }
 }
