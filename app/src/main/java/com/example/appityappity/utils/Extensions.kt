@@ -1,5 +1,6 @@
 package com.example.appityappity.utils
 
+import java.lang.StringBuilder
 import java.util.*
 
 fun String.toPrefFormat(): String {
@@ -9,10 +10,10 @@ fun String.toPrefFormat(): String {
 fun String.toTitle(): String {
     val temp1 = this.replace('_', ' ')
     val temp = temp1.split(' ')
-    var result = ""
+    val result = StringBuilder()
     for (i in temp) {
-       result+= i.replaceFirstChar { it.uppercase() } + " "
+       result.append(i.replaceFirstChar { it.uppercase() } + " ")
     }
 
-    return result.trim()
+    return result.toString().trim()
 }

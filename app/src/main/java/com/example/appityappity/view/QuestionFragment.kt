@@ -18,7 +18,8 @@ import com.example.appityappity.viewmodel.QuestionViewModel
 
 class QuestionFragment : Fragment(), OnRadioButtonClickListener {
 
-    private lateinit var binding: FragmentQuestionBinding
+    private var _binding: FragmentQuestionBinding? = null
+    private val binding: FragmentQuestionBinding get() = _binding!!
     private lateinit var viewModel: QuestionViewModel
     private val answers = mutableListOf<String>()
     private var selected = ""
@@ -29,7 +30,7 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
         savedInstanceState: Bundle?
     ): View {
         viewModel = ViewModelProvider(requireActivity())[QuestionViewModel::class.java]
-        binding = FragmentQuestionBinding.inflate(layoutInflater)
+        _binding = FragmentQuestionBinding.inflate(layoutInflater)
         return binding.root
     }
 
@@ -77,7 +78,7 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
         // clear answers and get correct one
         answers.clear()
         answers.add(question.correctAnswer)
-        answers.addAll(question.incorrectAnswers!!)
+        answers.addAll(question.incorrectAnswers)
 
         answers.shuffle()
 
@@ -92,11 +93,11 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
     }
 
     private fun configureObservers() {
-        viewModel.questionLiveData.observe(viewLifecycleOwner, { question ->
+        viewModel.questionLiveData.observe(viewLifecycleOwner) { question ->
             randomizeAnswers(question)
-        })
+        }
 
-        viewModel.uiState.observe(viewLifecycleOwner, { uiState ->
+        viewModel.uiState.observe(viewLifecycleOwner) { uiState ->
             when (uiState) {
                 UIState.LOADING -> {
                     binding.apply {
@@ -130,7 +131,12 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                 }
                 UIState.CORRECT -> {
                     binding.apply {
-                        tvConfirmation.setBackgroundColor(resources.getColor(R.color.bright_green, null))
+                        tvConfirmation.setBackgroundColor(
+                            resources.getColor(
+                                R.color.bright_green,
+                                null
+                            )
+                        )
                         tvConfirmation.text = resources.getString(R.string.good_job)
                         tvConfirmation.visibility = View.VISIBLE
                         flipRadioGroup(false)
@@ -139,7 +145,12 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                 }
                 UIState.WRONG -> {
                     binding.apply {
-                        tvConfirmation.setBackgroundColor(resources.getColor(R.color.bright_red, null))
+                        tvConfirmation.setBackgroundColor(
+                            resources.getColor(
+                                R.color.bright_red,
+                                null
+                            )
+                        )
                         tvConfirmation.text = resources.getString(R.string.unfortunate)
                         tvConfirmation.visibility = View.VISIBLE
                         flipRadioGroup(false)
@@ -151,8 +162,9 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
                         QuestionFragmentDirections.actionNavQuestionsToNavResults()
                     )
                 }
+                else -> {}
             }
-        })
+        }
     }
 
 
@@ -167,5 +179,10 @@ class QuestionFragment : Fragment(), OnRadioButtonClickListener {
 
     override fun onRadioButtonClick(btn: RadioButton) {
         selected = btn.text.toString()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

@@ -75,7 +75,7 @@
     "correctAnswer": "The coroutine can live as long as the application is alive",
     "incorrectAnswers": [
       "The coroutine can live as long as the activity is alive",
-      "The coroutine can live as long as the viewmodel is alive",
+      "The coroutine can live as long as the ViewModel is alive",
       "This scope does not exist"
     ]
   },
@@ -85,14 +85,14 @@
     "correctAnswer": "The coroutine can live as long as the activity is alive",
     "incorrectAnswers": [
       "The coroutine can live as long as the application is alive",
-      "The coroutine can live as long as the viewmodel is alive",
+      "The coroutine can live as long as the ViewModel is alive",
       "This scope does not exist"
     ]
   },
   {
     "id": 10,
     "question": "What is the scope of ViewModelScope?",
-    "correctAnswer": "The coroutine can live as long as the viewmodel is alive",
+    "correctAnswer": "The coroutine can live as long as the ViewModel is alive",
     "incorrectAnswers": [
       "The coroutine can live as long as the application is alive",
       "The coroutine can live as long as the activity is alive",
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "question": "What are Dispatchers in coroutines?",
-    "correctAnswer": "They which thread to use and are responsible for resuming suspended coroutines",
+    "correctAnswer": "They detail which thread to use and are responsible for resuming suspended coroutines",
     "incorrectAnswers": [
       "They connect to coroutine to a workable thread",
       "They do not have to be used with coroutines, but doing so changes its scope",
@@ -151,8 +151,8 @@
   },
   {
     "id": 16,
-    "question": "When would you use Dispatchers.Johnson",
-    "correctAnswer": "To start a coroutine from another dispatcher",
+    "question": "When would you use Dispatchers.Unconfined",
+    "correctAnswer": "To run coroutines in a test setting",
     "incorrectAnswers": [
       "To interact with UI elements",
       "To perform data operations like network, database queries, and file handling",

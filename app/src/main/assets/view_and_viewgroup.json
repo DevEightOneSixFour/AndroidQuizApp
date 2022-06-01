@@ -34,12 +34,12 @@
   },
   {
     "id": 4,
-    "question": "Difference between margin and padding.",
+    "question": "What is the difference between margin and padding.",
     "correctAnswer": "Padding is the space inside the container, while margin is the space outside of the container",
     "incorrectAnswers":
     [
       "Margin is the space inside the container, while padding is the space outside of the container",
-      "The function similarly, but padding is the legacy version of margin",
+      "They function similarly, but padding is the legacy version of margin",
       "Margin must be scaled with dp and padding must be scaled with px"
     ]
   },
@@ -49,7 +49,7 @@
     "correctAnswer": "Density-Independent Pixels, based on the physical density of the screen",
     "incorrectAnswers":
     [
-      "Dimension-Independent Pixels, based on the physical dimension of the screen",
+      "Dimension Pixels, based on the physical dimension of the screen",
       "Design Principles, guidelines to follow for building concise UI",
       "'dp' is not used in Android"
     ]

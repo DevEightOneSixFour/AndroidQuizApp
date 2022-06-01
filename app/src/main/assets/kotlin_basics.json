@@ -79,7 +79,7 @@
     "incorrectAnswers": [
       "get, set, equals, toString, hashCode",
       "create, read, update, delete",
-      "get, post, put, patch, delete "
+      "get, post, put, patch, delete"
     ],
     "correct": false
   },
@@ -123,7 +123,7 @@
     "id": 11,
     "category": "Kotlin Basics",
     "question": "What is by lazy?",
-    "correctAnswer": "Initialize the variable once it is called",
+    "correctAnswer": "Initialize the variable when it is first called",
     "incorrectAnswers": [
       "Declare variable now to initialize later",
       "Declare a variable in one class to use it in another",

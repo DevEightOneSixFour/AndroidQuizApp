@@ -14,7 +14,7 @@
     "question": "What is Context?",
     "correctAnswer": "The current state of the application",
     "incorrectAnswers": [
-      "Understand how the user interacts with our app",
+      "Used to understand how the user interacts with our app",
       "The location in memory of the app on the device",
       "Where the user is interacting in our app"
     ]
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "question": "What is an Activity",
+    "question": "What is an Activity?",
     "correctAnswer": "A single screen that the user can interact with",
     "incorrectAnswers": [
       "Handles long running operation without user interaction",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "question": "What is a Service",
+    "question": "What is a Service?",
     "correctAnswer": "Handles long running operation without user interaction",
     "incorrectAnswers": [
       "A single screen that the user can interact with",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "question": "What is a Broadcast Receiver",
+    "question": "What is a Broadcast Receiver?",
     "correctAnswer": "Allows the application to response to Android intents",
     "incorrectAnswers": [
       "A single screen that the user can interact with",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "question": "What is a Content Provider",
+    "question": "What is a Content Provider?",
     "correctAnswer": "Manages access to a central repository of data",
     "incorrectAnswers": [
       "A single screen that the user can interact with",
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "question": "What is an intent",
+    "question": "What is an intent?",
     "correctAnswer": "A messaging object used to request an action from other components",
     "incorrectAnswers": [
       "An object only used to start other activities",
@@ -222,14 +222,14 @@
     "incorrectAnswers":
     [
       "Bundles our generated classes",
-      "The system that sends notifies us about warnings and errors in our IDE",
+      "The system that sends and notifies us about warnings and errors in our IDE",
       "We do not have ProGuard in Android"
     ]
   },
   {
     "id": 23,
     "question": "What is not an example of a normal permission?",
-    "correctAnswer": "SEND_SMS",
+    "correctAnswer": "ACCESS_FINE_LOCATION",
     "incorrectAnswers":
     [
       "INTERNET",
@@ -240,7 +240,7 @@
   {
     "id": 24,
     "question": "What is not an example of a dangerous permission?",
-    "correctAnswer": "ACCESS_NOTIFICATION_POLICY",
+    "correctAnswer": "INTERNET",
     "incorrectAnswers":
     [
       "RECORD_AUDIO",
@@ -254,7 +254,7 @@
     "correctAnswer": "A permission that can affect the user's privacy",
     "incorrectAnswers":
     [
-      "A permission that can crash the app is not handled",
+      "A permission that can crash the app if not handled",
       "A permission that leaves the app vulnerable to being hacked",
       "A permission that can overheat the device"
     ]
